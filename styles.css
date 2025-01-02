@@ -1,0 +1,300 @@
+body{
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-color: #E3FEF7   ;
+}
+.head_file{
+    background-color: #243642;
+    width: 100%;
+    height: 210px;
+    transition: 1s;
+    border-radius: 0 0 50% 50%; 
+    transition-duration: 3s;
+}
+.head_file:hover{
+    height: 230px;  
+
+}
+.header_details{
+    color: #E2F1E7;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+
+#heading{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;  
+}
+#para{
+    font-size: 15px;
+    
+}
+
+.sq1{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 20deg;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 45px;
+    animation: sq1a 4s ease-in 0s 1 reverse;
+    transition: 0.5s;
+}
+.sq1:hover{
+    width:25px;
+    height: 25px;
+    
+}
+@keyframes sq1a{
+    from{
+        margin-left: 400px;
+        margin-top: 45px;
+        rotate: 20deg;
+        opacity: 0;
+    }
+    to{
+        margin-left:500px;
+        margin-top: 50px;
+        rotate: 65deg;
+        opacity: 0.7;
+    }
+}
+.sq2{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 70deg;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 350px;
+    animation: sq2a 4s ease-in 0s 1 reverse;
+    transition: 0.7s;
+}
+.sq2:hover{
+    width:30px;
+    height:30px;
+    
+}
+@keyframes sq2a{
+    from{
+        margin-top: 100px;
+        margin-left: 300px;
+        rotate: 70deg;
+        opacity: 0;
+    }
+    to{
+        margin-top: 80px;
+        margin-left:450px ;
+        rotate: 30deg;
+        opacity: 1;
+    }
+}
+.sq3{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 0deg;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 420px;
+    animation: sq3a 4s ease-in 0s 1 reverse;
+    transition: 1s;
+}
+.sq3:hover{
+    opacity: 0;
+}
+@keyframes sq3a{
+    from{
+        margin-top: 140px;
+        margin-left: 400px;
+        rotate: 0deg;
+        opacity: 0;
+    }
+    to{
+        margin-top: 100px;
+        margin-left:450px;
+        rotate: 180deg;
+        opacity: 1;
+    }
+}
+
+.sq4{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 30deg;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1080px;
+    animation: sq4a 4s ease-in 0s 1 normal;
+    transition: 1s;
+}
+.sq3:hover{
+    opacity: 0;
+}
+@keyframes sq4a{
+    from{
+        margin-top: 40px;
+        margin-left: 1000px;
+        rotate: 0deg;
+        opacity: 0.8;
+    }
+    to{
+        margin-top: 20px;
+        margin-left:1140px;
+        rotate: 180deg;
+        opacity: 0;
+    }
+}
+.sq5{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 30deg;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 400px;
+    animation: sq5a 4s ease-in 0s 1 normal;
+    transition: 1s;
+}
+.sq5:hover{
+    opacity: 0;
+}
+@keyframes sq5a{
+    from{
+        margin-top: 90px;
+        margin-left: 1020px;
+        rotate: 30deg;
+        opacity: 0.8;
+    }
+    to{
+        margin-top: 110px;
+        margin-left:1150px;
+        rotate: -90deg;
+        opacity: 0;
+    }
+}
+
+.sq7{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: yellow;
+    opacity: 0;
+    rotate: 30deg;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 400px;
+    animation: sq6a 4s ease-in 0s 1 normal;
+    transition: 1s;
+}
+.sq6:hover{
+    opacity: 0;
+}
+@keyframes sq6a{
+    from{
+        margin-top: 140px;
+        margin-left: 990px;
+        rotate: 30deg;
+        opacity: 1;
+    }
+    to{
+        margin-top: 150px;
+        margin-left:1100px;
+        rotate: 80deg;
+        opacity: 0;
+    }
+}
+
+#linkedin{
+    width: 35px;
+    height: 35px;
+    opacity: 0.7;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -5px;
+    transition:0.5s;
+  
+}
+#linkedin:hover{
+    width: 37px;
+    height: 37px;
+    opacity: 1;
+
+}
+#github{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left:180px ;
+    transition: 0.5s;
+}
+#github:hover{
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+
+}
+
+.card1{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 50px;
+    animation: card1a 4s ease-in 0s 1 normal;
+}
+@keyframes card1a{
+    from{
+        margin-left: 1000px;
+        margin-top: 50px;
+    }
+    to{
+        margin-left: 1050px;
+        margin-top: 50px;
+    }
+}
+.card2{
+    position:absolute ;
+    margin-top: 200px;
+    margin-left:600px;
+    animation: card2a 4s ease-in 0s 1 normal;
+}
+@keyframes card2a{
+    from{
+        margin-left: 600px;
+        margin-top: 150px;
+    }
+    to{
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+}
+.card3{
+    position: absolute;
+    margin-top:50px;
+    margin-left:150px;
+    animation: card3a 4s ease-in 0s 1 normal;
+}
+@keyframes card3a{
+    from{
+        margin-left: 230px;
+        margin-top: 50px;
+    }
+    to{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+}
